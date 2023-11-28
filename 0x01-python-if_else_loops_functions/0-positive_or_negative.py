@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
-if number &gt; 0:
-print(&quot;{} is positive&quot;.format(number))
+if number > 0:
+    print(f"{number} is positive")
 elif number == 0:
-print(&quot;{} is zero&quot;.format(number))
+    print(f"{number} is zero")
 else:
-print(&quot;{} is negative&quot;.format(number))
+    print(f"{number} is negative")
